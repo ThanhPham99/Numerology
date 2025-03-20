@@ -1,0 +1,18 @@
+{
+  "name": "@moevuive/numerology",
+  "version": "1.0.0",
+  "description": "Numerology library",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc"
+  },
+  "author": "moevuive",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.8.2"
+  }
+}
