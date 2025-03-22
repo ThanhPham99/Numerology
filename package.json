@@ -1,5 +1,5 @@
 {
-  "name": "@moevuive/numerology",
+  "name": "@thanhpham99/numerology",
   "version": "1.0.0",
   "description": "Numerology library",
   "main": "dist/index.js",
@@ -10,9 +10,13 @@
   "scripts": {
     "build": "tsc"
   },
-  "author": "moevuive",
+  "author": "thanhpham99",
   "license": "ISC",
   "devDependencies": {
     "typescript": "^5.8.2"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
   }
 }
